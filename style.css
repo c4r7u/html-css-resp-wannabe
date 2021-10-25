@@ -71,3 +71,46 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* Soluzioni */
+
+@media screen and (max-width: 420px) {
+  img {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  #lezioni .row >.left,
+  #lezioni .row >.right {
+    display: contents;
+    font-size: 30px; 
+  }
+
+  .container.grey {
+    width: 992px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    font-size: 30px;
+  }
+
+
+}
